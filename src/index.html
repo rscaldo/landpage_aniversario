@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniversário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="hero__text">Para a festa do meu aniversário falta <span id="contador"></span></p>
+      <div class="infos-bar">
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            Salão de Eventos do prédio
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Horário</b>
+            A partir das 19H
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            03/10/2023 as 19hrs
+          </li>
+        </ul>
+        <a href="#" class="button button--primary">Confirme sua presença!</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="event event--frontend">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Bandas</h2>
+        <p class="event__details__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat distinctio reiciendis laboriosam, molestiae dolore a rerum, at perferendis sint perspiciatis? Recusandae unde velit atque dolore culpa.</p>
+      </div>
+      <img class="event__image" src="./images/music.jpg" alt="Front-end">
+    </div>
+  </section>
+
+  <section class="event event--ux-ui event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Comidas</h2>
+        <p class="event__details__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat distinctio reiciendis laboriosam, molestiae dolore a rerum, at perferendis sint perspiciatis? Recusandae unde velit atque dolore culpa.</p>
+      </div>
+      <img class="event__image" src="./images/food.jpg" alt="UX IU">
+    </div>
+  </section>
+  <section class="event event--data-science">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Bebidas</h2>
+        <p class="event__details__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat distinctio reiciendis laboriosam, molestiae dolore a rerum, at perferendis sint perspiciatis? Recusandae unde velit atque dolore culpa.</p>
+      </div>
+      <img class="event__image" src="./images/drinks.jpg" alt="Data science">
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
